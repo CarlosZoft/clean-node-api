@@ -1,5 +1,5 @@
 import { SignUpController } from './signup'
-import { MissingParamError, InvalidParamError, ServerError } from '../../../errors';
+import { MissingParamError, InvalidParamError, ServerError } from '../../errors';
 import { EmailValidator, AddAccount, AddAccountModel, AccountModel } from './signup-protocols';
 import { resolve } from 'path/posix';
 import { rejects } from 'assert';
